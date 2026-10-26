@@ -42,5 +42,7 @@ npx playwright show-report   # reporte con trace
 Contra otra URL (por ejemplo Render): `BASE_URL=https://mi-app.onrender.com npx playwright test`.
 
 ## Despliegue en Render
+App desplegada: https://el-rincon-del-cafe-ksuv.onrender.com (plan Free: la primera visita tras inactividad tarda ~1 min).
+
 El archivo `render.yaml` describe el servicio (carpeta `app`, build `npm install`, start `npm start`).
 Para probar la versión desplegada: `BASE_URL=https://<tu-servicio>.onrender.com npx playwright test`.
