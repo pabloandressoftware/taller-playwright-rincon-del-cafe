@@ -1,0 +1,47 @@
+{
+  "usuarios": [
+    { "correo": "estudiante1@cafe.test", "nombre": "Estudiante 1", "contrasena": "Cafe2026" },
+    { "correo": "estudiante2@cafe.test", "nombre": "Estudiante 2", "contrasena": "Cafe2026" },
+    { "correo": "estudiante3@cafe.test", "nombre": "Estudiante 3", "contrasena": "Cafe2026" },
+    { "correo": "estudiante4@cafe.test", "nombre": "Estudiante 4", "contrasena": "Cafe2026" },
+    { "correo": "estudiante5@cafe.test", "nombre": "Estudiante 5", "contrasena": "Cafe2026" },
+    { "correo": "estudiante6@cafe.test", "nombre": "Estudiante 6", "contrasena": "Cafe2026" },
+    { "correo": "estudiante7@cafe.test", "nombre": "Estudiante 7", "contrasena": "Cafe2026" },
+    { "correo": "estudiante8@cafe.test", "nombre": "Estudiante 8", "contrasena": "Cafe2026" },
+    { "correo": "estudiante9@cafe.test", "nombre": "Estudiante 9", "contrasena": "Cafe2026" },
+    { "correo": "estudiante10@cafe.test", "nombre": "Estudiante 10", "contrasena": "Cafe2026" },
+    { "correo": "estudiante11@cafe.test", "nombre": "Estudiante 11", "contrasena": "Cafe2026" },
+    { "correo": "estudiante12@cafe.test", "nombre": "Estudiante 12", "contrasena": "Cafe2026" },
+    { "correo": "estudiante13@cafe.test", "nombre": "Estudiante 13", "contrasena": "Cafe2026" },
+    { "correo": "estudiante14@cafe.test", "nombre": "Estudiante 14", "contrasena": "Cafe2026" },
+    { "correo": "estudiante15@cafe.test", "nombre": "Estudiante 15", "contrasena": "Cafe2026" },
+    { "correo": "estudiante16@cafe.test", "nombre": "Estudiante 16", "contrasena": "Cafe2026" }
+  ],
+  "productos": [
+    { "id": "p1", "nombre": "Espresso", "categoria": "bebidas", "precio": 8000 },
+    { "id": "p2", "nombre": "Latte", "categoria": "bebidas", "precio": 12000 },
+    { "id": "p3", "nombre": "Capuchino", "categoria": "bebidas", "precio": 13000 },
+    { "id": "p4", "nombre": "Té verde", "categoria": "bebidas", "precio": 7000 },
+    { "id": "p5", "nombre": "Croissant", "categoria": "postres", "precio": 9000 },
+    { "id": "p6", "nombre": "Brownie", "categoria": "postres", "precio": 10000 },
+    { "id": "p7", "nombre": "Cheesecake", "categoria": "postres", "precio": 16000 },
+    { "id": "p8", "nombre": "Sándwich de pollo", "categoria": "comida", "precio": 15000 }
+  ],
+  "cupones": [
+    { "codigo": "CAFE10", "porcentaje": 10, "vence": "2030-12-31", "usadoPor": [] },
+    { "codigo": "VENCIDO20", "porcentaje": 20, "vence": "2025-12-31", "usadoPor": [] }
+  ],
+  "cupoPorHorario": 8,
+  "reservas": [],
+  "resenas": [
+    { "id": 1, "calificacion": 4, "comentario": "Muy buen latte", "nombre": "Ana", "estado": "publicada" },
+    { "id": 2, "calificacion": 5, "comentario": "Ambiente agradable", "nombre": "Luis", "estado": "publicada" },
+    { "id": 3, "calificacion": 3, "comentario": "Esperé mucho", "nombre": "Marta", "estado": "publicada" },
+    { "id": 4, "calificacion": 1, "comentario": "Pendiente de revisión", "nombre": "Anónimo", "estado": "pendiente" }
+  ],
+  "saldos": { "CLI001": 0, "CLI002": 500 },
+  "carritos": {},
+  "favoritos": {},
+  "pedidos": [],
+  "ids": { "reserva": 0, "resena": 4, "pedido": 0, "favorito": 0 }
+}

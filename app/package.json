@@ -1,0 +1,17 @@
+{
+  "name": "el-rincon-del-cafe",
+  "version": "1.0.0",
+  "description": "Aplicación de práctica para el taller de Playwright",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1"
+  }
+}
